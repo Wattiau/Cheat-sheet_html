@@ -1,24 +1,426 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="foundation/css/foundation.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script type="application/javascript" src="foundation/js/foundation/foundation.js"></script>
     <title>Document</title>
 </head>
-<body>
-<header class="row">
-        <h1 id="ancretop" class="medium-12 columns">Cheat Sheet HTML</h1>
-		<a href="#ancre1" class="medium-1 columns">Balise Principale</a>
-		<a href="#ancre2" class="medium-1 columns">Balise d'en-tête</a>
-		<a href="#ancre3" class="medium-1 columns">Structuration texte</a>
-		<a href="#ancre4" class="medium-1 columns">Balise Liste</a>
-		<a href="#ancre5" class="medium-1 columns">Balise Tableau</a>
-		<a href="#ancre6" class="medium-1 columns">Balise formulaire</a>
-		<a href="#ancre7" class="medium-1 columns">Balises sectionnantes</a>
-		<a href="#ancre8" class="medium-1 columns">Balises génériques</a>
 
-</header>
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            <nav class="nav-bar right">
+                <ul class="button-group">
+                    <li><a href="#" class="button">Link 1</a></li>
+                    <li><a href="#" class="button">Link 2</a></li>
+                    <li><a href="#" class="button">Link 3</a></li>
+                    <li><a href="#" class="button">Link 4</a></li>
+                </ul>
+            </nav>
+            <h1>Cheat sheet HTML</h1>
+            <hr/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-9 columns" role="content">
+
+            <article>
+                <h3 id="Balise-principale">Balise principale :</h3>
+                <div class="row">
+                    <div class="large-12 columns">
+                        <ul>
+                            <li>
+                                <code>html</code>
+                                Balise principale.
+                            </li>
+                            <li class="indent1">
+                                <code>head</code>
+                                En-tête de la page.
+                            </li>
+                            <li>
+                                <code>body</code>
+                                Corps de la page.
+                            </li>
+                        </ul>
+                        <a href="#categories" class="haut-de-page">Haut de la page</a>
+                    </div>
+                </div>
+            </article>
+            <hr/>
+            <article>
+
+                <h3 id="Balise-en-tête">Balise d'en-tête</h3>
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <ul>
+                            <li>
+                                <code>link</code>
+                                Liaison avec une feuille de style.
+                            </li>
+                            <li class="indent1">
+                                <code>meta</code>
+                                Métadonnées de la page web ( charset, mot-clés... ).
+                            </li>
+                            <li class="indent2">
+                                <code>script</code>
+                                Code JavaScript.
+                            </li>
+                            <li class="indent1">
+                                <code>style</code>
+                                Code css.
+                            </li>
+                            <li>
+                                <code>title</code>
+                                Titre de la page.
+                            </li>
+                        </ul>
+                        <a href="#categories" class="haut-de-page">Haut de la page</a>
+                    </div>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h3 id="Balises-structuration-texte">Balises de structuration du texte :</h3>
+                <div class="row">
+                    <div class="large-12 columns">
+                        <ul>
+                            <li>
+                                <code>abbr</code>
+                                Abréviation.
+                            </li>
+                            <li class="indent1">
+                                <code>blockquote</code>
+                                Citation (longue).
+                            </li>
+                            <li class="indent2">
+                                <code>cite</code>
+                                Citation du titre d'une oeuvre ou d'un évènement.
+                            </li>
+                            <li class="indent3">
+                                <code>q</code>
+                                Citation (courte).
+                            </li>
+                            <li class="indent4">
+                                <code>sup</code>
+                                Exposant.
+                            </li>
+                            <li class="indent5">
+                                <code>sub</code>
+                                Indice.
+                            </li>
+                            <li class="indent6">
+                                <code>mark</code>
+                                Mise en valeur visuelle.
+                            </li>
+                            <li class="indent7">
+                                <code>h1--h6</code>
+                                Titre de niveau 1 a 6.
+                            </li>
+                            <li class="indent8">
+                                <code>figure</code>
+                                Figure (image,code...).
+                            </li>
+                            <li class="indent9">
+                                <code>figcaption</code>
+                                Description de la figure.
+                            </li>
+                            <li class="indent10">
+                                <code>audio</code>
+                                Son.
+                            </li>
+                            <li class="indent10">
+                                <code>video</code>
+                                Vidéo.
+                            </li>
+                            <li class="indent9">
+                                <code>source</code>
+                                Format source pour les balise "audio" et "video".
+                            </li>
+                            <li class="indent8">
+                                <code>hr</code>
+                                Ligne de séparation horizontale.
+                            </li>
+                            <li class="indent7">
+                                <code>address</code>
+                                Adresse de contact.
+                            </li>
+                            <li class="indent6">
+                                <code>del</code>
+                                Texte supprimé.
+                            </li>
+                            <li class="indent5">
+                                <code>ins</code>
+                                Texte inséré.
+                            </li>
+                            <li class="indent4">
+                                <code>dfn</code>
+                                Définition.
+                            </li>
+                            <li class="indent3">
+                                <code>kbd</code>
+                                Saisie clavier.
+                            </li>
+                            <li class="indent2">
+                                <code>pre</code>
+                                Affichage formaté ( pour les codes sources ).
+                            </li>
+                            <li class="indent1">
+                                <code>progress</code>
+                                Barre de progression.
+                            </li>
+                            <li>
+                                <code>time</code>
+                                Date ou heure.
+                            </li>
+                        </ul>
+                        <a href="#categories" class="haut-de-page">Haut de la page</a>
+
+                    </div>
+                </div>
+            </article>
+            <hr/>
+            <article>
+
+                <h3 id="Balise-listes">Balise de listes :</h3>
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <ul>
+                            <li>
+                                <code>ul</code>
+                                Liste a puces, non numérotée.
+                            </li>
+                            <li class="indent1">
+                                <code>ol</code>
+                                Liste numérotée.
+                            </li>
+                            <li class="indent2">
+                                <code>li</code>
+                                Element de la liste a puces.
+                            </li>
+                            <li class="indent2">
+                                <code>dl</code>
+                                Liste de définitions.
+                            </li>
+                            <li class="indent1">
+                                <code>dt</code>
+                                Terme a définir.
+                            </li>
+                            <li>
+                                <code>dd</code>
+                                Définition du terme.
+                            </li>
+                        </ul>
+                        <a href="#categories" class="haut-de-page">Haut de la page</a>
+                    </div>
+                </div>
+            </article>
+
+            <hr/>
+            <article>
+
+                <h3 id="Balise-tableau">Balise de tableau :</h3>
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <ul>
+                            <li>
+                                <code>table</code>
+                                Tableau.
+                            </li>
+                            <li class="indent1">
+                                <code>caption</code>
+                                Titre du tableau.
+                            </li>
+                            <li class="indent2">
+                                <code>tr</code>
+                                Ligne de tableau.
+                            </li>
+                            <li class="indent3">
+                                <code>th</code>
+                                Cellule d'en-tête.
+                            </li>
+                            <li class="indent3">
+                                <code>td</code>
+                                Cellule.
+                            </li>
+                            <li class="indent2">
+                                <code>thead</code>
+                                Section de l'en-tête du tableau.
+                            </li>
+                            <li class="indent1">
+                                <code>tbody</code>
+                                Section du corps du tableau.
+                            </li>
+                            <li>
+                                <code>tfoot</code>
+                                Section de pied du tableau.
+                            </li>
+                        </ul>
+                        <a href="#categories" class="haut-de-page">Haut de la page</a>
+
+                    </div>
+                </div>
+            </article>
+            <hr/>
+            <article>
+
+                <h3 id="Balises-formulaire">Balises de formulaire :</h3>
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <ul>
+                            <li>
+                                <code>form</code>
+                                Formulaire.
+                            </li>
+                            <li class="indent1">
+                                <code>fieldset</code>
+                                Groupe de champs.
+                            </li>
+                            <li class="indent2">
+                                <code>legend</code>
+                                Titre d'un groupe de champs.
+                            </li>
+                            <li class="indent3">
+                                <code>label</code>
+                                Libellé d'un champ.
+                            </li>
+                            <li class="indent4">
+                                <code>input</code>
+                                Champ de formulaire (texte, mot de passe, case a cocher, bouton..).
+                            </li>
+                            <li class="indent3">
+                                <code>textarea</code>
+                                Zone de saisie multiligne.
+                            </li>
+                            <li class="indent2">
+                                <code>select</code>
+                                Liste déroulante.
+                            </li>
+                            <li class="indent1">
+                                <code>option</code>
+                                Elément d'une liste déroulante.
+                            </li>
+                            <li>
+                                <code>optgroup</code>
+                                Groupe d'éléments d'une liste déroulante.
+                            </li>
+                        </ul>
+                        <a href="#categories" class="haut-de-page">Haut de la page</a>
+
+                    </div>
+                </div>
+            </article>
+            <hr/>
+            <article>
+
+                <h3 id="Balises-sectionnantes">Balises sectionnantes :</h3>
+
+                <div class="row">
+                    <div class="large-12 columns">
+
+                        <ul>
+                            <li>
+                                <code>header</code>
+                                En-tête.
+                            </li>
+                            <li class="indent1">
+                                <code>nav</code>
+                                Liens principaux de navigation.
+                            </li>
+                            <li class="indent2">
+                                <code>footer</code>
+                                Pied de page.
+                            </li>
+                            <li class="indent2">
+                                <code>section</code>
+                                Section de page.
+                            </li>
+                            <li class="indent1">
+                                <code>article</code>
+                                Article ( contenue autonome ).
+                            </li>
+                            <li>
+                                <code>aside</code>
+                                Informations complémentaires.
+                            </li>
+                        </ul>
+                        <a href="#categories" class="haut-de-page">Haut de la page</a>
+
+                    </div>
+                </div>
+            </article>
+            <hr/>
+            <article>
+
+                <h3 id="Balises-génériques">Balises génériques :</h3>
+
+                <div class="row">
+                    <div class="large-12 columns">
+                        <ul>
+                            <li>
+                                <code>span</code>
+                                Balise générique de type inline.
+                            </li>
+                            <li class="indent1">
+                                <code>div</code>
+                                Balise générique de type block.
+                            </li>
+                        </ul>
+                        <a href="#categories" class="haut-de-page">Haut de la page</a>
+
+                    </div>
+                </div>
+            </article>
+
+
+        </div>
+        <aside class="large-3 columns">
+
+            <h5 id="categories">Categories :</h5>
+            <ul class="side-nav">
+                <li><a class="navbar" href="#Balise-principale">Balise Principale</a></li>
+                <li><a class="navbar" href="#Balise-en-tête">Balise d'en-tête</a></li>
+                <li><a class="navbar" href="#Balises-structuration-texte">Structuration texte</a></li>
+                <li><a class="navbar" href="#Balise-listes">Balise Liste</a></li>
+                <li><a class="navbar" href="#Balise-tableau">Balise Tableau</a></li>
+                <li><a class="navbar" href="#Balises-formulaire">Balise formulaire</a></li>
+                <li><a class="navbar" href="#Balises-sectionnantes">Balises sectionnantes</a></li>
+                <li><a class="navbar" href="#Balises-génériques">Balises génériques</a></li>
+            </ul>
+
+            <div class="panel">
+                <h5>Prochainement :</h5>
+                <p>Le site va continuer d'évoluer, et nous aurons le plaisir d'ajouter du javascript a cette page.</p>
+            </div>
+
+        </aside>
+    </div>
+
+    <footer class="row">
+        <div class="large-12 columns">
+            <hr/>
+            <div class="row">
+                <div class="large-6 columns">
+                    <p>© Copyright no one at all. Go to town.</p>
+                </div>
+                <div class="large-6 columns">
+                    <ul class="inline-list right">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
